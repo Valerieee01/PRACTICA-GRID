@@ -1,0 +1,12 @@
+@import url(/style.css);
+
+.grid-implicita{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    grid-auto-flow: row; /*da un fluja a nuestra grid*/
+    grid-auto-flow: 60px;
+    grid-auto-columns: auto; /*da tamaño auto a lo que sobre */
+    grid-auto-columns: 160px;/* da tamaño fijo a lo que sobre*/
+
+}
